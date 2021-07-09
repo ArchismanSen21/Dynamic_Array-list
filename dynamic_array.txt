@@ -1,0 +1,8 @@
+First we are making an array,counter and size of array is global values.
+the adding a constructor class and itializing the values of the above three variables.
+then creating a function that appends elemets at the end of the array.Compares if the number of elemets are equal to the size of the array or not.
+If count is equal to the size of the array then using grow fuction to dynamically increasing the size of array to accomodate more elements.
+If the size of array has space in it then we appends the elements in it.
+In grow function we double the size of array.Atfer increasing the size of the array we use a temporary null array to copy the elements of the old array in the new spacious array.
+If we want to add  elements at a specific indexes we use addElementsat function to shift the lements to the left from the specified index.
+Time Complexity : O(n).

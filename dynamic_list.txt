@@ -1,0 +1,17 @@
+This program will be easier if we divide it into two sub parts.
+
+First one is to add an element to a sequence at a claculated Index.
+In formula wise it would be written as : 
+Insert y at the end of the ((x XOR lastans) mod n)th sequence.
+
+Secound one is to find the sequence at the calculated index and print the value of calculated SubIndex.
+In formula wise it would be :
+Print the value of the (y mod size)th element of the ((x XOR lastans) mod n)th sequence.
+
+Here size denotes the size of the related sequence .
+
+An example woud be like, 
+n=4, lastans=0, and 1 0 2
+It means you have to insert 2 at the calculated index of((0^0)%4).
+
+Time complexity: O(n).
